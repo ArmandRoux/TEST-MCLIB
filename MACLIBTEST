@@ -580,17 +580,6 @@ function MacLib:Window(Settings)
 	username.Parent = userAndDisplayFrame
 	username.Size = UDim2.fromScale(1,0)
 
-	userAndDisplayFrame.Parent = informationGroup
-
-	informationGroup.Parent = userInfo
-
-	local userInfoUIPadding = Instance.new("UIPadding")
-	userInfoUIPadding.Name = "UserInfoUIPadding"
-	userInfoUIPadding.PaddingLeft = UDim.new(0, 10)
-	userInfoUIPadding.PaddingRight = UDim.new(0, 10)
-	userInfoUIPadding.Parent = userInfo
-
-	userInfo.Parent = sidebarGroup
 
 	local sidebarGroupUIPadding = Instance.new("UIPadding")
 	sidebarGroupUIPadding.Name = "SidebarGroupUIPadding"
