@@ -877,7 +877,7 @@ function MacLib:Window(Settings)
 	currentTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
 	currentTab.BorderSizePixel = 0
 	currentTab.Position = UDim2.fromScale(0, 0.5)
-	currentTab.Size = UDim2.fromScale(0.9, 0)
+	currentTab.Size = UDim2.fromScale(0.2, 0)
 	currentTab.Parent = elements
 
 	elements.Parent = topbar
