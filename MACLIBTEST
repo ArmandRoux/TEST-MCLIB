@@ -455,15 +455,6 @@ function MacLib:Window(Settings)
 	sidebarGroup.Position = UDim2.fromOffset(0, 91)
 	sidebarGroup.Size = UDim2.new(1, 0, 1, -91)
 
-	local userInfo = Instance.new("Frame")
-	userInfo.Name = "UserInfo"
-	userInfo.AnchorPoint = Vector2.new(0, 1)
-	userInfo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	userInfo.BackgroundTransparency = 1
-	userInfo.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	userInfo.BorderSizePixel = 0
-	userInfo.Position = UDim2.fromScale(0, 1)
-	userInfo.Size = UDim2.new(1, 0, 0, 107)
 
 	local informationGroup = Instance.new("Frame")
 	informationGroup.Name = "InformationGroup"
